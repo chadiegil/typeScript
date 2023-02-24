@@ -1,3 +1,19 @@
+interface MotorCycle {
+  brand: string;
+  price: number;
+}
+
+function Honda(motor: MotorCycle): void {
+  console.log(`Brand : ${motor.brand} and price: ${motor.price}`);
+}
+
+const motor = {
+  brand: "honda",
+  price: 12314,
+};
+
+console.log(Honda(motor));
+
 type Person = {
   fname: string;
   age: number;
