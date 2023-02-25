@@ -25,9 +25,3 @@ function ike(person: Person) {
 }
 
 const siIke = { fname: "ike", age: 21, isProgrammer: true };
-
-ike(siIke);
-
-function app() {
-  console.log("hello");
-}
