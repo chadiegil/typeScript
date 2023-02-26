@@ -25,3 +25,4 @@ function ike(person: Person) {
 }
 
 const siIke = { fname: "ike", age: 21, isProgrammer: true };
+const siIke = { fname: "ike", age: 21, isProgrammer: true };
