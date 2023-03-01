@@ -1,3 +1,5 @@
+import { IPerson } from "./person";
+
 interface MotorCycle {
   brand: string;
   price: number;
@@ -25,3 +27,15 @@ function ike(person: Person) {
 }
 
 const siIke = { fname: "ike", age: 21, isProgrammer: true };
+
+function newPerson(person: IPerson) {
+  console.log(person.age);
+  console.log(person.name);
+}
+
+const p = {
+  name: "ike",
+  age: 21,
+};
+
+newPerson(p);
