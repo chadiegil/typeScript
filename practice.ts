@@ -8,6 +8,10 @@ interface Car {
   brand: string;
   price: number;
 }
+interface Human {
+  brand: string;
+  price: number;
+}
 
 function Honda(motor: MotorCycle): void {
   console.log(`Brand : ${motor.brand} and price: ${motor.price}`);
