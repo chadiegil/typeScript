@@ -17,6 +17,11 @@ type Game = {
   character: string;
   attribute: string;
 };
+
+type two = {
+  character: string;
+  attribute: string;
+};
 function Honda(motor: MotorCycle): void {
   console.log(`Brand : ${motor.brand} and price: ${motor.price}`);
 }
